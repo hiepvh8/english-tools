@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Học tiếng Anh từ nền tảng đến IELTS 6.0 với lộ trình 36 tuần, bài luyện, MP3 và theo dõi tiến độ.">
+  <meta name="theme-color" content="#153e36">
+  <title>Tiếng Anh từ nền tảng đến IELTS 6.0</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="course-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Đến nội dung chính</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <a href="#home" class="brand">
+        <span class="brand-mark"><img src="assets/icons/book.png" width="24" height="24" alt=""></span>
+        <span><strong>IELTS 6.0</strong><small>Tiếng Anh từ nền tảng</small></span>
+      </a>
+      <nav aria-label="Điều hướng chính" class="nav">
+        <a href="#home" data-nav="home"><img src="assets/icons/home.png" alt="">Tổng quan</a>
+        <a href="#roadmap" data-nav="roadmap"><img src="assets/icons/flag.png" alt="">Lộ trình</a>
+        <a href="#lessons" data-nav="lessons"><img src="assets/icons/book.png" alt="">Bài học</a>
+        <a href="#assessments" data-nav="assessments"><img src="assets/icons/chart.png" alt="">Đánh giá</a>
+        <a href="#notes" data-nav="notes"><img src="assets/icons/cards.png" alt="">Sổ lỗi</a>
+        <a href="#settings" data-nav="settings"><span class="settings-icon" aria-hidden="true">⚙︎</span>Cài đặt</a>
+      </nav>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <p id="view-label">Tổng quan</p>
+        <label class="track-field"><span>Hệ IELTS</span>
+          <select id="track" aria-label="Hệ IELTS">
+            <option value="academic">Academic</option>
+            <option value="general">General Training</option>
+          </select>
+        </label>
+      </header>
+      <div id="notice" role="status" aria-live="polite" hidden></div>
+      <main id="main" tabindex="-1">
+        <noscript>Cần bật JavaScript để mở bài học và lưu tiến độ.</noscript>
+      </main>
+      <footer>IELTS 6.0 <span>·</span> 36 tuần tự học</footer>
+    </div>
+  </div>
+</body>
+</html>

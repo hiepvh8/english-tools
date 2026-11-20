@@ -1,0 +1,549 @@
+[
+  {
+    "number": 1,
+    "title": "Chào hỏi, chữ cái, am/is/are, my/your (U01)",
+    "receptive": "P01 phần chữ cái, M00 và 1 bài A1 Listening. Đọc mẫu U01.",
+    "productive": "Ghi âm giới thiệu 30–45 giây. Viết 6 câu về bản thân.",
+    "goal": "Lưu điểm đầu vào và 2 phiên bản bài nói.",
+    "lessons": [
+      "U01",
+      "P01",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Hiện tại đơn, giờ, thói quen (U02)",
+    "receptive": "P01 phần số. Nghe giờ hẹn; đọc một lịch mở cửa A1.",
+    "productive": "Viết 8 câu, hỏi đáp 5 câu về lịch sinh hoạt.",
+    "goal": "Nói một ngày thường trong 45 giây.",
+    "lessons": [
+      "U02",
+      "GR01",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Nhà cửa, danh từ, a/an/the, vị trí (U03)",
+    "receptive": "P01 phần số nhiều. Đọc 2 tin về phòng hoặc địa điểm.",
+    "productive": "Vẽ phòng và dùng 7 câu để mô tả.",
+    "goal": "Người nghe nhận ra ít nhất 4 vị trí đúng.",
+    "lessons": [
+      "U03",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Đồ ăn, mua sắm, some/any, much/many (U04)",
+    "receptive": "Nghe 1 hội thoại A1 về đặt món; chép 5 số hoặc giá.",
+    "productive": "Đóng hai vai gọi món và trả tiền, 4 lượt mỗi vai.",
+    "goal": "Tính đúng giá trong U04 và tạo thực đơn 5 món.",
+    "lessons": [
+      "U04",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Quá khứ đơn, was/were, động từ bất quy tắc (U05)",
+    "receptive": "P01 phần -ed. Đọc một bài A1 và dựng dòng thời gian.",
+    "productive": "Viết 8–10 câu về cuối tuần, nói 60 giây.",
+    "goal": "Dùng đúng ít nhất 3 động từ quá khứ bất quy tắc.",
+    "lessons": [
+      "U05",
+      "GR02",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Đi lại, can, mệnh lệnh, hỏi đường (U06)",
+    "receptive": "Nghe bài A1 có thông tin đường đi hoặc giao thông. Vẽ tuyến.",
+    "productive": "Chỉ đường 5 bước. Hỏi giờ, giá và địa điểm.",
+    "goal": "Người nghe vẽ lại đúng ít nhất 4/5 bước.",
+    "lessons": [
+      "U06",
+      "P01",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Dự định, cuộc hẹn, lời mời (U07)",
+    "receptive": "Đọc 2 tin nhắn đổi lịch. Nghe 1 bài A1 không nhìn lời.",
+    "productive": "Viết lời mời 50–70 từ và tin nhắn đổi lịch.",
+    "goal": "Nêu đúng ngày, giờ, địa điểm mới.",
+    "lessons": [
+      "U07",
+      "VOC1"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Đánh giá nền tảng (M08)",
+    "receptive": "Nghe 10 câu, đọc 10 câu. Chấm từng phần.",
+    "productive": "Viết 60–80 từ, nói 60–90 giây.",
+    "goal": "Mỗi phần nghe/đọc ≥ 7/10; viết/nói ≥ 3/4.",
+    "lessons": [
+      "M08"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Trải nghiệm, hiện tại hoàn thành (U09)",
+    "receptive": "Nghe 1 bài A2, lấy ý chính và 3 chi tiết. Đọc U09.",
+    "productive": "Viết 80–100 từ, kể một trải nghiệm trong 1 phút.",
+    "goal": "Phân biệt đúng have been và went trong 4 ví dụ.",
+    "lessons": [
+      "U09",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "So sánh, số liệu, phương án (U10)",
+    "receptive": "Đọc bảng U10 và 1 thông báo A2. Nghe 1 đoạn có giá/giờ.",
+    "productive": "Viết 80–100 từ; nói 60–75 giây so sánh.",
+    "goal": "Có ít nhất 3 so sánh đúng và một lý do.",
+    "lessons": [
+      "U10",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Lời khuyên, quy định, câu if (U11)",
+    "receptive": "Đọc quy định A2; nghe và ghi 3 lời khuyên.",
+    "productive": "Viết 5 quy định, nói 75 giây về cách tự học.",
+    "goal": "Dùng đúng should, have to, don’t have to và mustn’t.",
+    "lessons": [
+      "U11",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Đoạn văn, because/so/although (U12)",
+    "receptive": "Đọc đoạn mẫu U12. Nghe 1 bài A2 và tóm tắt 2 câu.",
+    "productive": "Viết 100–120 từ có ý chính, lý do, ví dụ.",
+    "goal": "Sửa 3 câu của bản nháp và giữ cả hai phiên bản.",
+    "lessons": [
+      "U12",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Mệnh đề quan hệ và từ tương đương (U13)",
+    "receptive": "Đọc 1 bài A2 hoặc B1 ngắn, tìm 5 cặp từ tương đương.",
+    "productive": "Nói 90 giây, viết 100 từ có 2 mệnh đề quan hệ.",
+    "goal": "Chép 3 bằng chứng trực tiếp từ bài đọc.",
+    "lessons": [
+      "U13",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Bị động và quy trình (U14)",
+    "receptive": "Đọc quy trình U14. Nghe 1 đoạn hướng dẫn và sắp bước.",
+    "productive": "Viết 80–100 từ và nói 60 giây về quy trình.",
+    "goal": "Nêu đúng thứ tự, có ít nhất 2 câu bị động đúng.",
+    "lessons": [
+      "U14",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 15,
+    "title": "Tóm tắt và nêu quan điểm (U15)",
+    "receptive": "Đọc và nghe 1 bài B1 ngắn. Viết 1 ý chính, 2 chi tiết.",
+    "productive": "Viết 120–150 từ và nói 90 giây, có ví dụ.",
+    "goal": "Phân biệt điều được nói rõ và điều chỉ suy ra.",
+    "lessons": [
+      "U15",
+      "VOC2"
+    ]
+  },
+  {
+    "number": 16,
+    "title": "Đánh giá kỹ năng nền (M16)",
+    "receptive": "Nghe 10 câu, đọc 10 câu. Ghi cả loại lỗi.",
+    "productive": "Viết 100–120 từ, nói 90–120 giây.",
+    "goal": "Mỗi phần nghe/đọc ≥ 7/10; viết/nói ≥ 3/4.",
+    "lessons": [
+      "M16"
+    ]
+  },
+  {
+    "number": 17,
+    "title": "Làm quen IELTS, form completion, Speaking Part 1",
+    "receptive": "L01 và 1 mẫu Listening Part 1. Học giới hạn từ.",
+    "productive": "Trả lời 8 câu Part 1. Viết 8 câu giải thích có because.",
+    "goal": "Điền đúng ≥ 6/8 L01. Ghi nguyên nhân từng lỗi.",
+    "lessons": [
+      "EXAM",
+      "L-HOW",
+      "L01",
+      "R-HOW",
+      "W-HOW",
+      "S-HOW"
+    ],
+    "academic": [
+      "AC01",
+      "AW01"
+    ],
+    "general": [
+      "GT01",
+      "GW01"
+    ]
+  },
+  {
+    "number": 18,
+    "title": "Reading, tìm bằng chứng, T/F/NG",
+    "receptive": "AC01 câu 5–9 hoặc GT01 câu 1–5; luyện 1 mẫu cùng hệ.",
+    "productive": "Viết 5 cặp paraphrase. Nói 6 câu Part 1 có chi tiết.",
+    "goal": "Ghi bằng chứng cho mỗi TRUE/FALSE; lý do cho NG.",
+    "lessons": [
+      "R-HOW",
+      "S-HOW"
+    ],
+    "academic": [
+      "AC01"
+    ],
+    "general": [
+      "GT01"
+    ],
+    "byTrack": {
+      "academic": {
+        "receptive": "AC01 câu 5–9. Luyện thêm một mẫu Academic."
+      },
+      "general": {
+        "receptive": "GT01 câu 1–5. Luyện thêm một mẫu General Training."
+      }
+    }
+  },
+  {
+    "number": 19,
+    "title": "Listening Part 2, sơ đồ; Writing Task 1 mở bài",
+    "receptive": "L02, thêm 1 mẫu sơ đồ chính thức. Phân biệt hướng rẽ.",
+    "productive": "Academic viết 2 mở bài/overview; GT viết 2 mở thư rõ mục đích.",
+    "goal": "Gắn đúng ≥ 4/5 vị trí L02, viết được 2 mở bài.",
+    "lessons": [
+      "L02",
+      "W-HOW"
+    ],
+    "academic": [
+      "AW01"
+    ],
+    "general": [
+      "GW01"
+    ],
+    "byTrack": {
+      "academic": {
+        "productive": "Viết hai mở bài và overview cho Academic Task 1."
+      },
+      "general": {
+        "productive": "Viết hai mở thư nêu rõ mục đích cho General Training Task 1."
+      }
+    }
+  },
+  {
+    "number": 20,
+    "title": "Task 1 đủ bài; Reading headings",
+    "receptive": "AC01 câu 1–4 hoặc GT01 câu 6–9; thêm mẫu đúng hệ.",
+    "productive": "Academic viết AW01; GT viết GW01. Thu âm Speaking Part 2.",
+    "goal": "Đạt ≥ 150 từ và đủ overview hoặc đủ 3 gạch đầu dòng.",
+    "lessons": [
+      "R-HOW",
+      "SP01"
+    ],
+    "academic": [
+      "AC01",
+      "AW01"
+    ],
+    "general": [
+      "GT01",
+      "GW01"
+    ],
+    "byTrack": {
+      "academic": {
+        "receptive": "AC01 câu 1–4 và một mẫu Academic.",
+        "productive": "Viết AW01 và thu âm Speaking Part 2.",
+        "goal": "Viết ít nhất 150 từ, có overview."
+      },
+      "general": {
+        "receptive": "GT01 câu 6–9 và một mẫu General Training.",
+        "productive": "Viết GW01 và thu âm Speaking Part 2.",
+        "goal": "Viết ít nhất 150 từ, đáp ứng đủ ba mục của đề thư."
+      }
+    }
+  },
+  {
+    "number": 21,
+    "title": "Listening Part 3, distractors; Speaking Part 2",
+    "receptive": "L03; sau khi chấm, ghi cụm báo đổi ý. Làm 1 mẫu Part 3.",
+    "productive": "Nói 1–2 phút theo thẻ SP01. Viết 1 đoạn Task 2 có ví dụ.",
+    "goal": "Nói ≥ 90 giây, tìm được 2 chỗ đổi ý trong bài nghe.",
+    "lessons": [
+      "L03",
+      "SP01",
+      "W02"
+    ]
+  },
+  {
+    "number": 22,
+    "title": "Listening Part 4, note completion; Task 2",
+    "receptive": "L04 và 1 mẫu Part 4. Hoàn tất AC01 hoặc GT01.",
+    "productive": "Lập dàn ý 2 đề Task 2, viết 1 bài ≥ 250 từ ở W02.",
+    "goal": "Ghi đáp án đúng, loại từ dự đoán và vị trí sai.",
+    "lessons": [
+      "L04",
+      "W02"
+    ],
+    "academic": [
+      "AC01"
+    ],
+    "general": [
+      "GT01"
+    ],
+    "byTrack": {
+      "academic": {
+        "receptive": "L04 và một mẫu Part 4. Hoàn tất AC01."
+      },
+      "general": {
+        "receptive": "L04 và một mẫu Part 4. Hoàn tất GT01."
+      }
+    }
+  },
+  {
+    "number": 23,
+    "title": "Speaking Part 3; ráp đề có giờ",
+    "receptive": "Làm 2 Part Listening liền nhau và 1 passage trong 22 phút.",
+    "productive": "Viết 1 Task 1 trong 25 phút, 1 Task 2 trong 45 phút. Nói 3 Part.",
+    "goal": "Ghi thời gian thật, 3 lỗi ảnh hưởng kết quả nhất.",
+    "lessons": [
+      "SP-BANK",
+      "W02-BANK",
+      "EXAM"
+    ],
+    "academic": [
+      "AC02",
+      "AW02"
+    ],
+    "general": [
+      "GT02",
+      "GW01"
+    ]
+  },
+  {
+    "number": 24,
+    "title": "Đánh giá làm quen đề (M24)",
+    "receptive": "Làm 40 câu Listening, 40 câu Reading đúng hệ, đề mới.",
+    "productive": "Writing 60 phút và Speaking 11–14 phút, ghi âm.",
+    "goal": "Nghe ≥ 16/40; đọc AC ≥ 15 hoặc GT ≥ 23/40; W/S khoảng 5.0 nếu có chấm.",
+    "lessons": [
+      "M24"
+    ],
+    "byTrack": {
+      "academic": {
+        "goal": "Nghe ≥ 16/40, Đọc ≥ 15/40, Viết và Nói khoảng 5.0 nếu có chấm."
+      },
+      "general": {
+        "goal": "Nghe ≥ 16/40, Đọc ≥ 23/40, Viết và Nói khoảng 5.0 nếu có chấm."
+      }
+    }
+  },
+  {
+    "number": 25,
+    "title": "Sửa điểm nghẽn lớn nhất",
+    "receptive": "Hai cụm 10–15 câu đúng dạng sai tuần 24. Thêm bài đọc/nghe ngắn.",
+    "productive": "Viết lại 1 bài đã chữa. Thu âm lại một đề Speaking sau 2 ngày.",
+    "goal": "So sánh kết quả ngay trên cùng dạng bằng câu hỏi mới.",
+    "lessons": [
+      "L-HOW",
+      "R-HOW",
+      "W-HOW"
+    ],
+    "academic": [
+      "AC02"
+    ],
+    "general": [
+      "GT02"
+    ]
+  },
+  {
+    "number": 26,
+    "title": "Task 1 dưới áp lực thời gian",
+    "receptive": "Làm 1 passage đúng hệ trong 20–22 phút. Thêm 1 Part nghe.",
+    "productive": "Viết 2 Task 1, mỗi bài 20 phút. Nói hai thẻ Part 2.",
+    "goal": "Cả hai bài ≥ 150 từ, đủ yêu cầu, ghi lỗi lặp.",
+    "lessons": [
+      "SP-BANK",
+      "W-HOW"
+    ],
+    "academic": [
+      "AW02",
+      "AC02"
+    ],
+    "general": [
+      "GW01",
+      "GT02"
+    ]
+  },
+  {
+    "number": 27,
+    "title": "Task 2, phát triển lập luận",
+    "receptive": "Luyện 1 Part 3 hoặc 4 và 1 bài đọc có câu hỏi suy luận.",
+    "productive": "Viết 2 Task 2 khác dạng, mỗi bài 40 phút. Nói Part 3 có ví dụ.",
+    "goal": "Cả hai bài ≥ 250 từ, trả lời hết yêu cầu.",
+    "lessons": [
+      "W02-BANK",
+      "SP-BANK"
+    ]
+  },
+  {
+    "number": 28,
+    "title": "Tốc độ Listening và Reading",
+    "receptive": "Làm 40 câu nghe một lượt, 40 câu đọc 60 phút; chữa từng phần.",
+    "productive": "Viết lại đoạn yếu nhất. Thực hành 1 lượt Speaking đủ ba Part.",
+    "goal": "Nhập điểm thô và tổng số câu bỏ trống.",
+    "lessons": [
+      "L04",
+      "R-HOW",
+      "SP01"
+    ],
+    "academic": [
+      "AC02"
+    ],
+    "general": [
+      "GT02"
+    ]
+  },
+  {
+    "number": 29,
+    "title": "Chạy thử như thi, lấy nhận xét",
+    "receptive": "Tập trên giao diện máy tính. Giữ một đề nguyên cho tuần 30.",
+    "productive": "Gõ 2 task trong 60 phút, thu âm 11–14 phút.",
+    "goal": "Chọn 3 lỗi sẽ kiểm tra ở lượt làm tiếp.",
+    "lessons": [
+      "EXAM",
+      "SP-BANK",
+      "W02"
+    ],
+    "academic": [
+      "AW02"
+    ],
+    "general": [
+      "GW01"
+    ]
+  },
+  {
+    "number": 30,
+    "title": "Đánh giá trước chặng về đích (M30)",
+    "receptive": "Đề mới, đủ Listening và Reading, cùng hệ dự thi.",
+    "productive": "Đủ 2 task, 3 phần nói. Nhờ chấm theo từng tiêu chí nếu có thể.",
+    "goal": "Nghe ≥ 20/40; đọc AC ≥ 20 hoặc GT ≥ 27/40; W/S khoảng 5.5 nếu có chấm.",
+    "lessons": [
+      "M30"
+    ],
+    "byTrack": {
+      "academic": {
+        "goal": "Nghe và Đọc ≥ 20/40, Viết và Nói khoảng 5.5 nếu có chấm."
+      },
+      "general": {
+        "goal": "Nghe ≥ 20/40, Đọc ≥ 27/40, Viết và Nói khoảng 5.5 nếu có chấm."
+      }
+    }
+  },
+  {
+    "number": 31,
+    "title": "Củng cố kỹ năng thấp nhất",
+    "receptive": "Làm 2 cụm cùng dạng, có 1 cụm mới để đo lại. Giữ một bài ngắn kỹ năng khỏe.",
+    "productive": "Chữa một bài viết và thu âm lại một câu Part 3 bằng ví dụ mới.",
+    "goal": "Lỗi ưu tiên giảm hoặc tỷ lệ đúng tăng trên mẫu mới.",
+    "lessons": [
+      "L-HOW",
+      "R-HOW",
+      "W-HOW",
+      "S-HOW"
+    ],
+    "academic": [
+      "AC02",
+      "AW02"
+    ],
+    "general": [
+      "GT02",
+      "GW01"
+    ]
+  },
+  {
+    "number": 32,
+    "title": "Củng cố kỹ năng thấp thứ hai",
+    "receptive": "Chọn 1 Part nghe hoặc 1 passage đúng hệ, phân tích bằng chứng.",
+    "productive": "Viết 1 Task 1 và 1 Task 2; luyện 2 thẻ Speaking Part 2.",
+    "goal": "Hoàn thành hai task 60 phút và nói 90–120 giây.",
+    "lessons": [
+      "L03",
+      "L04",
+      "R-HOW"
+    ],
+    "academic": [
+      "AC02"
+    ],
+    "general": [
+      "GT02"
+    ]
+  },
+  {
+    "number": 33,
+    "title": "Mô phỏng đủ bốn kỹ năng",
+    "receptive": "Làm đề chưa xem, chấm và ghi điểm thô.",
+    "productive": "Viết và nói đúng giờ. Xin người biết tiêu chí nhận xét nếu có.",
+    "goal": "Có một bảng điểm đủ 4 kỹ năng hoặc ghi rõ phần chưa được chấm.",
+    "lessons": [
+      "W02-BANK",
+      "SP-BANK"
+    ],
+    "academic": [
+      "AW02"
+    ],
+    "general": [
+      "GW01"
+    ]
+  },
+  {
+    "number": 34,
+    "title": "Sửa theo dữ liệu, giữ đề mới",
+    "receptive": "Chữa tối đa 3 nhóm lỗi, luyện 2 cụm ngắn và kiểm tra lại.",
+    "productive": "Viết lại một đoạn chưa đạt, thu âm khi đang bấm giờ.",
+    "goal": "Dự trữ hai đề mới cho tuần 35 và 36.",
+    "lessons": [
+      "EXAM",
+      "L-HOW",
+      "R-HOW"
+    ]
+  },
+  {
+    "number": 35,
+    "title": "Thi thử mới lần 1",
+    "receptive": "Đúng loại thi, làm liên tục các bài trên máy tính nếu dự thi trên máy.",
+    "productive": "60 phút Writing, 11–14 phút Speaking, dùng đề chưa xem.",
+    "goal": "Đối chiếu mục tiêu overall và điểm sàn từng kỹ năng.",
+    "lessons": [
+      "M35"
+    ]
+  },
+  {
+    "number": 36,
+    "title": "Thi thử mới lần 2 và quyết định (M36)",
+    "receptive": "Đề khác tuần 35. Cùng điều kiện để so sánh.",
+    "productive": "Chấm hoặc nhờ chấm W/S. Lập kế hoạch bù nếu còn khoảng cách.",
+    "goal": "Hai lần đủ 4 điểm đạt yêu cầu; nếu chưa, bù 1–2 tuần và đo lại.",
+    "lessons": [
+      "M36"
+    ]
+  }
+]

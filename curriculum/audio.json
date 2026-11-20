@@ -1,0 +1,258 @@
+{
+  "P01": [
+    {
+      "voice": 1,
+      "text": "The English alphabet. A, B, C, D, E, F, G. H, I, J, K, L, M, N. O, P, Q, R, S, T, U. V, W, X, Y, Z. How do you spell your name? My name is Anna. A, N, N, A. Numbers. Thirteen. Thirty. Fourteen. Forty. Fifteen. Fifty. Sixteen. Sixty. Seventeen. Seventy. Eighteen. Eighty. Nineteen. Ninety. Seven fifteen. Seven fifty. Half past nine. A quarter past nine. Final sounds. Books. Rooms. Buses. Worked. Played. Wanted. Ship. Sheep. Live. Leave. Think. Sink. Then. Den. Could you say that again, please? The next stop is Park Road."
+    }
+  ],
+  "M00": [
+    {
+      "voice": 1,
+      "text": "Hello. My first name is Anna. That's A, N, N, A. My English class is on Tuesday. It starts at a quarter past nine in the morning. We are in room twelve. Please bring a notebook."
+    }
+  ],
+  "M08": [
+    {
+      "voice": 1,
+      "text": "Recording one."
+    },
+    {
+      "voice": 2,
+      "text": "Hello, Riverside Tours. How can I help?"
+    },
+    {
+      "voice": 1,
+      "text": "Hello. Is the town tour on Sunday?"
+    },
+    {
+      "voice": 2,
+      "text": "We usually go on Sunday, but this week it's on Saturday."
+    },
+    {
+      "voice": 1,
+      "text": "What time does it start?"
+    },
+    {
+      "voice": 2,
+      "text": "At half past nine in the morning. Meet outside the station, next to the main doors."
+    },
+    {
+      "voice": 1,
+      "text": "Great. How much is one ticket?"
+    },
+    {
+      "voice": 2,
+      "text": "Eight pounds. Please bring a bottle of water. You can buy lunch when we stop."
+    },
+    {
+      "voice": 1,
+      "text": "Thanks. See you there!"
+    },
+    {
+      "voice": 1,
+      "text": "Recording two."
+    },
+    {
+      "voice": 3,
+      "text": "Hi Sam! Our study meeting was on Wednesday, but I have to work that evening. Can we meet on Thursday instead? Let's meet at six fifteen. The café closes early, so please come to the library. Please bring a laptop. I've got a notebook and some pens for us. I'll bring sandwiches, too. You can buy a drink there. See you soon!"
+    }
+  ],
+  "M16": [
+    {
+      "voice": 1,
+      "text": "Recording one."
+    },
+    {
+      "voice": 2,
+      "text": "Hello, Rosa. This is Tom from the volunteer team. We're painting the benches in Green Park. We planned to go on Friday, but the forecast says rain, so we've moved it to Saturday. We can't start at nine as we planned. We'll begin at ten instead. Please meet at the park entrance, near the information board. The team leader will be there. The paint and brushes will be ready when you arrive. Bring gloves, and wear old clothes if you can. If we finish by noon, we'll have a short break together before we go home."
+    },
+    {
+      "voice": 1,
+      "text": "Recording two."
+    },
+    {
+      "voice": 3,
+      "text": "Welcome to the new tool library. Instead of buying a tool you only need once, you can borrow it from us. The first time you visit, please bring a photo ID. Fill in a short form, and we'll give you a member card. You can take out two tools at a time. Each item can be kept for one week. We print the due date on your receipt. If the date printed is a Sunday, bring the item back on Monday, because we're closed on Sundays. If a tool seems damaged when you pick it up, please tell a member of staff right away."
+    }
+  ],
+  "L01": [
+    {
+      "voice": 3,
+      "text": "Northside Community Centre. How can I help?"
+    },
+    {
+      "voice": 2,
+      "text": "Hi. I'd like to book the beginner photography course."
+    },
+    {
+      "voice": 3,
+      "text": "Of course. Could I have your name?"
+    },
+    {
+      "voice": 2,
+      "text": "It's Daniel Mercer. The surname is M, E, R, C, E, R."
+    },
+    {
+      "voice": 3,
+      "text": "Thank you. Now, we normally run the class on Wednesday. That's fully booked this month, but there is a place in the Thursday class."
+    },
+    {
+      "voice": 2,
+      "text": "Thursday's fine. Can I check the start time? I saw six fifteen on your website."
+    },
+    {
+      "voice": 3,
+      "text": "That's last month's timetable. This group starts at six forty-five in the evening."
+    },
+    {
+      "voice": 2,
+      "text": "Where should I go?"
+    },
+    {
+      "voice": 3,
+      "text": "Go to Room fourteen, on the first floor. It's beside the lift. Don't use Room forty. That's where the advanced group meets."
+    },
+    {
+      "voice": 2,
+      "text": "How much will I pay?"
+    },
+    {
+      "voice": 3,
+      "text": "It's forty pounds for the whole course. There used to be a materials charge, but everything is included now."
+    },
+    {
+      "voice": 2,
+      "text": "Is a phone enough for the class?"
+    },
+    {
+      "voice": 3,
+      "text": "You'll need a camera. We have a few to lend if you don't own one. And I'll take a contact number, please."
+    },
+    {
+      "voice": 2,
+      "text": "Sure. It's zero double seven, double zero, nine zero zero, one two three."
+    },
+    {
+      "voice": 3,
+      "text": "Thank you. You'll get an email this afternoon. You don't have to pay when it arrives. Please pay by Monday next week to keep your place."
+    },
+    {
+      "voice": 2,
+      "text": "Great. Thanks for your help."
+    }
+  ],
+  "L02": [
+    {
+      "voice": 2,
+      "text": "Welcome to River Hall. You are standing at the entrance, at the bottom of the map, facing north. Walk straight along the main path. Just after the entrance, the room on your right is the café. The room opposite it is our shop, on your left. Keep walking up the same path until you reach the middle junction. If you turn left there, you'll find the workshop immediately beside the path. The doors have a green sign. Across the path from the workshop, on the right at the same junction, is the gallery. Now, continue straight ahead to the far end of the path. Turn left. The garden is in the far left corner of the map. The room opposite the garden, at the far right, is an office for staff. It isn't part of the tour. The free guided tour starts at two in the afternoon. We tried starting at half past one last month, but visitors told us it was too early. Today the café serves drinks and soup, but there are no sandwiches. If you cycle here, leave your bike in the racks outside the entrance. Please keep the main path clear."
+    }
+  ],
+  "L03": [
+    {
+      "voice": 3,
+      "text": "So, Ethan, should our survey be about travel times? We could ask everyone how long it takes to get to college."
+    },
+    {
+      "voice": 2,
+      "text": "That might be hard to compare. Some students live quite far away, and we'd need a large group. Why not study what stops students leaving their cars at home?"
+    },
+    {
+      "voice": 3,
+      "text": "Yes, the reasons for driving. That's more useful for the college. Let's make that our main question."
+    },
+    {
+      "voice": 2,
+      "text": "And how should we reach people? An online survey would be cheap."
+    },
+    {
+      "voice": 3,
+      "text": "It would, but students might ignore a link. Paper forms mean we have to enter the results by hand. Could we ask a few questions face to face in the student centre?"
+    },
+    {
+      "voice": 2,
+      "text": "Good idea. We can talk to people from several departments there."
+    },
+    {
+      "voice": 3,
+      "text": "When should we collect the answers? The centre's very busy on Monday."
+    },
+    {
+      "voice": 2,
+      "text": "True, but it closes early that day. Wednesday is exam day. Thursday afternoon should give us enough time, and the exams will be over."
+    },
+    {
+      "voice": 3,
+      "text": "Fine. We need a way of showing the findings. What about a map of where people live?"
+    },
+    {
+      "voice": 2,
+      "text": "That doesn't match our new question. Let's use one simple bar chart to show the most common reasons. We can mention unusual replies in the report."
+    },
+    {
+      "voice": 3,
+      "text": "All right. I'll draft the questions tonight. Could you talk to the student centre manager and get permission for us to work there?"
+    },
+    {
+      "voice": 2,
+      "text": "Sure, I'll do that tomorrow. We should both run the interviews on Thursday. That way we'll hear a wider range of answers."
+    },
+    {
+      "voice": 3,
+      "text": "And the final report?"
+    },
+    {
+      "voice": 2,
+      "text": "Our tutor offered to check a draft for us. We can write it together after the interviews, then send it to her on Friday."
+    },
+    {
+      "voice": 3,
+      "text": "That works. I'll send you the questions tonight."
+    }
+  ],
+  "L04": [
+    {
+      "voice": 3,
+      "text": "Today I'll describe a small study on shade at city bus stops. The project asked how the experience of waiting for a bus changes when there is shade. Early plans focused on the city centre. The research team chose the western district, however, because its bus stops include several different kinds of shelter. The team selected twelve stops in all. Half had no shelter, while the others had either trees nearby or a roof above the bench. At every site the team measured air temperature and also the surface temperature of the seats. That second measurement mattered because the seats could feel extremely hot even when the air was cooler. All the observations took place in July. Staff started work at noon, when passengers were arriving for the busiest part of the afternoon. At each site they asked travellers to complete a short questionnaire. Instead of asking for a numerical rating, they asked where people preferred to stand and why. A surprising point was that some passengers waited under trees even when a shaded shelter was closer. In their answers they often mentioned the breeze. The roofs provided shade, but a solid wall could block moving air. So people cared about more than the temperature shown by the instruments. One limitation was that observations stopped after four o'clock. The researchers didn't measure conditions in the evening, so they couldn't tell whether users made different choices at that time. Next year the team hopes to repeat the work at a few busier stations and include the effects of wind in the measurements."
+    }
+  ],
+  "M08R": [
+    {
+      "voice": 1,
+      "text": "Recording one."
+    },
+    {
+      "voice": 2,
+      "text": "Good morning. Can I book a ticket for the museum tour?"
+    },
+    {
+      "voice": 3,
+      "text": "Of course. This week the tour is on Sunday. It starts at half past ten. Please meet outside the main entrance. One ticket is six pounds. Bring a pencil for the activity."
+    },
+    {
+      "voice": 1,
+      "text": "Recording two."
+    },
+    {
+      "voice": 2,
+      "text": "Hi Alex! Let’s have our study meeting on Friday this week. Come to the café near the park at a quarter past four. Bring your English book. I’ll bring some fruit to share."
+    }
+  ],
+  "M16R": [
+    {
+      "voice": 1,
+      "text": "Recording one."
+    },
+    {
+      "voice": 2,
+      "text": "This is a message from the river clean-up team. We were planning to collect litter near the bridge on Wednesday, but heavy rain is expected. We will now meet on Friday at a quarter to nine in the morning. Wait by the visitor centre, not by the bridge. Bags are provided. Please bring sturdy shoes, as the ground can get wet."
+    },
+    {
+      "voice": 1,
+      "text": "Recording two."
+    },
+    {
+      "voice": 3,
+      "text": "Our community centre now lends sports equipment. Before borrowing anything, show a membership card at the front desk. Members can borrow up to three items for five days. The centre closes on Mondays. If your due date falls on a Monday, you can return the equipment on Tuesday without a charge."
+    }
+  ]
+}
