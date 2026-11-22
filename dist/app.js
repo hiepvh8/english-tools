@@ -150,6 +150,10 @@ function showNotice(message, error = false) {
 }
 
 function persist() {
+  if (account.user) {
+    account.queue(state);
+    return true;
+  }
   try {
     localStorage.setItem(STORE_KEY, JSON.stringify(state));
     storageProblem = false;
@@ -807,7 +811,7 @@ function notesView() {
 
 function settingsView() {
   const { start, minimum } = state.settings;
-  return `<div class="wide">${pageHead("Cài đặt", "Lịch học và dữ liệu được lưu trong trình duyệt bạn đang dùng.")}
+  return `<div class="wide">${pageHead("Cài đặt", account.user ? "Tiến độ đồng bộ theo tài khoản. Bản ghi âm lưu trên trình duyệt này." : "Chế độ khách lưu lịch học và tiến độ trên trình duyệt này.")}
     <div class="stack">
       <section class="panel"><h2>Lịch học và mục tiêu</h2>
         <form id="settings-form" class="stack">
@@ -828,7 +832,7 @@ function settingsView() {
         </div>
       </section>
       <section class="panel"><h2>Dùng ngoại tuyến</h2>
-        <p>Bài học và MP3 đi kèm thư mục tải về. Bạn có thể tắt mạng khi chạy trên localhost. Dùng cùng địa chỉ và trình duyệt để tiếp tục tiến độ. Đề thi thử và các liên kết nguồn cần mạng.</p>
+        <p>Bài học và MP3 đi kèm thư mục tải về. Bạn có thể tắt Internet khi chạy trên localhost. Đăng nhập để dùng tiến độ trên cùng máy chủ hoặc tiếp tục học khách trên trình duyệt này. Đề thi thử và các liên kết nguồn cần mạng.</p>
         <p class="small muted">Phiên bản ${VERSION}</p>
       </section>
     </div></div>`;
@@ -839,7 +843,8 @@ let database;
 function recordingStore() {
   if (!database) {
     database = new Promise((resolve, reject) => {
-      const request = indexedDB.open("ielts36-recordings", 1);
+      const name = account.user ? `ielts36-recordings-${account.user.id}` : "ielts36-recordings";
+      const request = indexedDB.open(name, 1);
       request.onupgradeneeded = () => request.result.createObjectStore("clips", { keyPath: "key" });
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject(request.error);
@@ -905,7 +910,7 @@ async function startCapture(key) {
   }
   if (pendingCapture || capture) return;
   if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") {
-    mediaLabel(key, "Thu âm cần trình duyệt hỗ trợ và trang localhost. Bạn vẫn có thể lưu từ khóa.", true);
+    mediaLabel(key, "Thu âm cần trình duyệt hỗ trợ và trang localhost hoặc HTTPS. Bạn vẫn có thể lưu từ khóa.", true);
     return;
   }
 
@@ -1251,7 +1256,7 @@ main.addEventListener("input", event => {
     const key = target.dataset.draft;
     state.drafts[key] = target.value;
     const saved = persist();
-    main.querySelector(`[data-draft-status="${key}"]`).textContent = saved ? "Đã lưu bản nháp" : "Bản nháp đang mở";
+    main.querySelector(`[data-draft-status="${key}"]`).textContent = saved && !account.user ? "Đã lưu bản nháp" : "Bản nháp đang mở";
     const words = main.querySelector(`[data-words="${key}"]`);
     if (words) words.textContent = `${wordCount(target.value)} từ`;
   }
@@ -1369,19 +1374,32 @@ function visit() {
   const lesson = currentLesson();
   if (lesson && inTrack(lesson) && state.lastLesson !== lesson.id) {
     state.lastLesson = lesson.id;
-    persist();
+    // Browsing between lessons should not compete with study edits on another device.
+    if (!account.user) persist();
   }
 }
 
-window.addEventListener("hashchange", () => {
+function routeChanged() {
   notice.hidden = true;
   stopCapture();
   visit();
   render({ scroll: true });
-});
+}
 
-visit();
-render({ scroll: currentRoute.view !== "home" });
-if (storageProblem) showNotice("Trình duyệt chưa đọc được tiến độ cũ. Bạn vẫn có thể học và dùng bản sao lưu.", true);
-if (location.protocol === "file:") showNotice("Đang mở tệp trực tiếp. Dùng localhost để thu âm và lưu tiến độ ổn định.");
-setInterval(refreshTimers, 500);
+async function boot() {
+  trackInput.disabled = true;
+  await account.initialize(progress => {
+    state = restoreState(progress);
+    storageProblem = false;
+    render();
+  });
+  trackInput.disabled = false;
+  window.addEventListener("hashchange", routeChanged);
+  visit();
+  render({ scroll: currentRoute.view !== "home" });
+  if (storageProblem) showNotice("Trình duyệt chưa đọc được tiến độ cũ. Bạn vẫn có thể học và dùng bản sao lưu.", true);
+  if (location.protocol === "file:") showNotice("Đang mở tệp trực tiếp. Dùng localhost để đăng nhập, thu âm và lưu tiến độ ổn định.");
+  setInterval(refreshTimers, 500);
+}
+
+void boot();

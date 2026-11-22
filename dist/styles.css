@@ -327,3 +327,16 @@ fieldset.panel { border: 1px solid var(--line); }
 fieldset.panel legend { padding-inline: .3rem; }
 .compact { background: var(--paper); }
 .compact + .compact { margin-top: .45rem; }
+
+.topbar-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
+#account-open { max-width: 16em; overflow-wrap: anywhere; }
+#account-dialog {
+  width: min(calc(100% - 2rem), 29rem);
+  padding: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  color: var(--ink);
+  background: var(--paper);
+}
+#account-dialog::backdrop { background: #102e28a8; }
+#account-message:not(:empty) { margin-top: .9rem; }

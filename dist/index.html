@@ -9,6 +9,7 @@
   <link rel="icon" href="assets/favicon.png">
   <link rel="stylesheet" href="styles.css">
   <script defer src="course-data.js"></script>
+  <script defer src="account.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -31,12 +32,16 @@
     <div class="workspace">
       <header class="topbar">
         <p id="view-label">Tổng quan</p>
+        <div class="topbar-controls">
         <label class="track-field"><span>Hệ IELTS</span>
           <select id="track" aria-label="Hệ IELTS">
             <option value="academic">Academic</option>
             <option value="general">General Training</option>
           </select>
         </label>
+        <button class="button button-small" id="account-open" type="button" hidden>Tài khoản</button>
+        <span class="small muted" id="account-status" role="status"></span>
+        </div>
       </header>
       <div id="notice" role="status" aria-live="polite" hidden></div>
       <main id="main" tabindex="-1">
@@ -45,5 +50,27 @@
       <footer>IELTS 6.0 <span>·</span> 36 tuần tự học</footer>
     </div>
   </div>
+  <dialog id="account-dialog" aria-labelledby="account-heading">
+    <div class="panel-head"><h2 id="account-heading">Đăng nhập</h2>
+      <button class="button button-small" id="account-close" type="button">Đóng</button></div>
+    <form class="stack" id="account-form">
+      <label class="field"><span>Tên đăng nhập</span><input name="username" autocomplete="username" minlength="3" maxlength="32" required></label>
+      <label class="field"><span>Mật khẩu</span><input name="password" type="password" autocomplete="current-password" minlength="10" maxlength="128" required></label>
+      <p id="account-rules" class="small muted" hidden>Tên đăng nhập gồm 3–32 ký tự, dùng chữ không dấu, số, dấu chấm, gạch dưới hoặc gạch ngang. Mật khẩu từ 10–128 ký tự.</p>
+      <div class="actions">
+        <button class="button button-primary" id="account-submit" type="submit">Đăng nhập</button>
+        <button class="button" id="account-switch" type="button">Tạo tài khoản mới</button>
+      </div>
+    </form>
+    <div class="stack" id="account-signed-in" hidden>
+      <p>Đang đăng nhập với <strong id="account-username"></strong>.</p>
+      <div class="actions">
+        <button class="button" id="account-logout" type="button">Đăng xuất</button>
+        <button class="button" id="account-retry" type="button" hidden>Thử đồng bộ lại</button>
+        <button class="button" id="account-use-server" type="button" hidden>Dùng bản máy chủ</button>
+      </div>
+    </div>
+    <p id="account-message" class="small" role="status"></p>
+  </dialog>
 </body>
 </html>

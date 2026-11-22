@@ -6,13 +6,31 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import os
 from pathlib import Path
 import re
+import sqlite3
 from threading import Timer
 import webbrowser
 
-DIST = Path(__file__).resolve().parent / "dist"
+from accounts import Accounts, public_origin
+
+ROOT = Path(__file__).resolve().parent
+DIST = ROOT / "dist"
 
 
 class CourseHandler(SimpleHTTPRequestHandler):
+    timeout = 15
+
+    def do_GET(self):
+        if self.path.startswith("/api/"):
+            return self.server.accounts.respond(self, "GET")
+        return super().do_GET()
+
+    def do_POST(self):
+        return self.server.accounts.respond(self, "POST")
+
+    def end_headers(self):
+        self.send_header("X-Frame-Options", "DENY")
+        super().end_headers()
+
     def send_head(self):
         self.byte_count = None
         path = Path(self.translate_path(self.path))
@@ -70,6 +88,9 @@ def main():
     parser.add_argument("--host", choices=("127.0.0.1", "localhost"), default="127.0.0.1")
     # The preview launcher passes this flag. The server always honors the requested port.
     parser.add_argument("--strictPort", action="store_true", help=argparse.SUPPRESS)
+    parser.add_argument("--data-dir", type=Path, default=os.environ.get("IELTS_DATA_DIR", ROOT / ".ielts-data"),
+                        help="Keep accounts and progress in this directory")
+    parser.add_argument("--public-origin", help="HTTPS origin when using a reverse proxy")
     parser.add_argument("--open", action="store_true", help="Open the course in your default browser")
     args = parser.parse_args()
     if not (DIST / "course-data.js").is_file():
@@ -80,6 +101,14 @@ def main():
     except OSError as error:
         parser.exit(1, f"Không mở được cổng {args.port}. {error}\n")
     with server:
+        try:
+            directory = args.data_dir.resolve()
+            if directory == DIST or DIST in directory.parents:
+                raise ValueError("Đặt kho tài khoản bên ngoài thư mục dist.")
+            origin = public_origin(args.public_origin) if args.public_origin else None
+            server.accounts = Accounts(directory, origin)
+        except (ValueError, OSError, sqlite3.Error) as error:
+            parser.exit(1, f"Không mở được kho tài khoản. {error}\n")
         url = f"http://localhost:{server.server_port}/"
         print(f"IELTS 6.0 đang chạy tại {url}", flush=True)
         if args.open:

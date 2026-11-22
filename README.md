@@ -18,6 +18,23 @@ Có thể chạy `python3 start.py` rồi mở địa chỉ trong trình duyệt
 
 Bài học và MP3 nằm trong thư mục, nên sau khi tải về bạn có thể chạy mà không cần mạng. Bạn cũng có thể mở trực tiếp `dist/index.html` để đọc bài và nghe. Trình duyệt có thể hạn chế lưu tiến độ hoặc thu âm ở chế độ mở tệp. Các đề và trang nguồn bên ngoài cần mạng.
 
+## Tài khoản và học trên nhiều thiết bị
+
+- Chọn **Tài khoản → Tạo tài khoản mới**. Mỗi người dùng tên đăng nhập và mật khẩu riêng. **Đăng xuất** khi dùng chung trình duyệt.
+- Khi đăng nhập, tiến độ, bản nháp, điểm và sổ lỗi được đồng bộ với máy chủ. Chờ trạng thái **Đã đồng bộ** trước khi đóng trang hoặc chuyển thiết bị. Bản ghi âm lưu riêng theo tài khoản trong trình duyệt. Dùng bản sao lưu JSON nếu muốn chuyển cả bản ghi.
+- Bài học khách vẫn mở như trước. Để chuyển tiến độ khách sang tài khoản, tải bản sao lưu ở **Cài đặt** trước khi đăng nhập, rồi nhập lại sau khi đăng nhập.
+- Máy chủ lưu tài khoản trong `.ielts-data/accounts.sqlite3`. Khi nâng cấp ZIP, dừng máy chủ và giữ lại thư mục `.ielts-data`, hoặc chạy các phiên bản với cùng đường dẫn `--data-dir`. Sao lưu thư mục này khi máy chủ đã dừng.
+
+### Cho người học truy cập từ máy khác
+
+`localhost` phục vụ trình duyệt trên máy đang chạy Python. Để cùng học từ nhiều thiết bị hoặc địa điểm, dùng một máy chủ chung với tên miền HTTPS. Đặt ứng dụng sau reverse proxy kết thúc TLS và chuyển tiếp nguyên tiêu đề `Host`. Trỏ proxy tới `127.0.0.1:4173` và chạy:
+
+~~~sh
+python3 start.py --public-origin https://hoc.example.com --data-dir /duong-dan/ielts-data
+~~~
+
+Thay tên miền và đường dẫn bằng cấu hình của máy chủ. Người học đăng ký trên đúng địa chỉ HTTPS đó. Chạy Python dưới tài khoản hệ thống thông thường, duy trì bản sao lưu SQLite và để reverse proxy xử lý TLS. Phiên bản ZIP chạy trực tiếp trên localhost mà không cần cấu hình này.
+
 ## Học và theo dõi tiến độ
 
 - **Cài đặt** cho phép đổi ngày và nhập sàn band. Tuần 1 bắt đầu vào thứ Hai trùng ngày chọn hoặc thứ Hai kế tiếp. Ở **Lộ trình**, mở tuần cần kéo dài để chèn 1–2 tuần ôn bù. Các ngày và mốc sau đó tự dời.
@@ -25,7 +42,7 @@ Bài học và MP3 nằm trong thư mục, nên sau khi tải về bạn có th�
 - Chấm bài Nghe, Đọc và Ngữ pháp theo câu có đáp án. Mở lời nghe sau khi chấm. Với câu mở, dùng bài mẫu và bảng tiêu chí.
 - M08 và M16 dùng điểm luyện tập. Nếu dưới 7/10 ở Nghe hoặc Đọc, hoặc dưới 3/4 ở Viết hoặc Nói, bổ sung 1–2 tuần ôn rồi làm M08R hoặc M16R. M24, M30, M35 và M36 dùng đề mới theo các nguồn trong bài, với đồng hồ trong web. Lưu band Viết và Nói khi có kết quả chấm theo tiêu chí. Bảng điểm tính overall khi đủ bốn band.
 - Bài viết và từ khóa tự lưu. Cho phép micro nếu muốn thu âm. Trình duyệt giữ bản ghi trên máy và cho phép nghe lại, tải xuống.
-- Dùng cùng trình duyệt và địa chỉ để tiếp tục. **Cài đặt → Tải bản sao lưu** xuất JSON có tiến độ, điểm, sổ lỗi và bản ghi. Xuất trước khi chuyển máy, đổi trình duyệt hoặc đổi địa chỉ localhost.
+- Chế độ khách dùng cùng trình duyệt và địa chỉ để tiếp tục. **Cài đặt → Tải bản sao lưu** xuất JSON có tiến độ, điểm, sổ lỗi và bản ghi. Xuất trước khi chuyển máy, đổi trình duyệt hoặc đổi địa chỉ localhost.
 
 ## Chỉnh giáo trình
 
